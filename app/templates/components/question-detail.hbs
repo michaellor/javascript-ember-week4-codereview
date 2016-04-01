@@ -2,3 +2,12 @@
   <h4>{{question.author}} asks "{{question.question}}"</h4>
   <p>Additional notes: {{question.notes}}</p>
 </div>
+<div>
+  <h4>Provide an Answer:</h4>
+  <form>
+    <label for="author">Your Name: </label>
+    {{input value=author id="author"}}
+    <label for="answer">Your Answer: </label>
+    {{input value=answer id="answer"}}
+  </form>
+</div>

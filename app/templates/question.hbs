@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="container">
+  <h3>{{model.author}}</h3>
+  <p>Q: {{model.question}}</p>
+  <br><br>
+    <div>
+      {{question-update question=model}}
+    </div>
+    <div>
+      {{answer-add answer=answer}}
+    </div>
+</div>
