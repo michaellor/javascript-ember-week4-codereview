@@ -1,12 +1,24 @@
 <div class="container">
-  <h3>{{model.author}}</h3>
-  <h4>Q: {{model.question}}</h4>
-  <p>notes from <strong>{{model.author}}</strong>: <em>{{model.notes}}</em></p>
-  <br><br>
-    <div>
-      {{question-update question=model}}
+  <div class="row">
+    <div class="col-xs-6">
+      <h3>{{model.author}}</h3>
+      <h4>Q: {{model.question}}</h4>
+      <p>notes from <strong>{{model.author}}</strong>: <em>{{model.notes}}</em></p>
+      <br><br>
+        <div class="bordered">
+          {{question-update question=model updateQuestion="updateQuestion"}}
+        </div>
+        <div class="bordered">
+          {{answer-add question=model saveAnswer="saveAnswer"}}
+        </div>
     </div>
-    <div>
-      {{answer-add question=model saveAnswer="saveAnswer"}}
+    <div class="col-xs-6">
+      <br>
+      <br>
+      <h4>Answers:</h4>
+        <ul>
+        </ul>
     </div>
+  </div>
+
 </div>

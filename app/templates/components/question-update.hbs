@@ -1,1 +1,8 @@
-<p>update form goes here</p>
+<div>
+  <h4>Edit This Question</h4>
+  <form>
+    <label for="question">Question</label>
+    {{input value=question.question id="question"}}
+    <button class="btn btn-success" {{action 'updateQuestion' question}}>Confirm</button>
+  </form>
+</div>

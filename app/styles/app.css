@@ -3,3 +3,9 @@ header {
   background-color: grey;
   height: 70px;
 }
+
+.bordered {
+  border-style: groove;
+  border-radius: 5px;
+  padding: 15px;
+}
