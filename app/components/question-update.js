@@ -9,7 +9,6 @@ export default Ember.Component.extend({
         notes: this.get('question.notes'),
         answers: this.get('question.answers')
       };
-      console.log("params", this.get('author'));
       this.sendAction('updateQuestion', question, params);
     }
   }

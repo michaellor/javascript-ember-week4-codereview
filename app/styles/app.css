@@ -1,11 +1,61 @@
 header {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: black;
   text-align: center;
-  background-color: grey;
+  font-size: 30pt;
   height: 70px;
+  margin-bottom: 100px;
 }
+
+img {
+  height: 70%;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.fixed_to_bottom {
+    position:fixed;
+    bottom:0px;
+    /*left:50%;*/
+    }
 
 .bordered {
   border-style: groove;
   border-radius: 5px;
   padding: 15px;
+}
+
+body {
+  padding-top: 100px;
+  color: white;
+  background-color: black;
+  background-image: url("http://img.gawkerassets.com/img/18j80bobq8m76jpg/original.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  font-size: 14pt;
+}
+
+.navbar {
+  background-image: url("https://c1.staticflickr.com/5/4026/4465346252_3bbdbcf6a5_b.jpg");
+  font-family: fantasy;
+  font-size: 24pt;
+  color: red;
+}
+
+.container {
+  background-color: grey;
+  padding: 30px;
+  border-style:double;
+}
+
+.container_bg {
+  background-image: url("http://furnituretexture.club/wp-content/uploads/2015/09/old-dark-wood-texture-ykxflwvbt.jpg");
+}
+
+#link-to {
+  color: red;
 }
