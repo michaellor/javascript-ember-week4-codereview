@@ -1,6 +1,7 @@
 <div class="container">
   <h3>{{model.author}}</h3>
-  <p>Q: {{model.question}}</p>
+  <h4>Q: {{model.question}}</h4>
+  <p>notes from <strong>{{model.author}}</strong>: <em>{{model.notes}}</em></p>
   <br><br>
     <div>
       {{question-update question=model}}
