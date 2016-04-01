@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="container">
+  <h2>Welcome adventurer, leave a question for the answers that you seek.</h2>
+  <div>
+    <ul>
+      {{#each model.question as |question|}}
+      {{question-display question=question}}
+    </ul>
+  </div>
+
+
+</div>
