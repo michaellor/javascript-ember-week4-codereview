@@ -16,8 +16,9 @@
       <br>
       <br>
       <h4>Answers:</h4>
-        <ul>
-        </ul>
+        {{#each model.answers as |answer|}}
+          {{answer-display answer=answer}}
+        {{/each}}
     </div>
   </div>
 

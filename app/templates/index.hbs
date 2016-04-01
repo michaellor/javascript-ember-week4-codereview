@@ -6,8 +6,9 @@
     </div>
     <div class="col-xs-6">
       <ul>
+      <h4>Questions:</h4>
       {{#each model.questions as |question|}}
-        {{question-display question=question}}
+        {{question-display question=question answer=answer}}
       {{/each}}
       </ul>
     </div>
