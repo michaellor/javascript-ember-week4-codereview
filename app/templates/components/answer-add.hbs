@@ -1,0 +1,12 @@
+<div>
+  <h4>Provide an answer</h4>
+  <form>
+    <label for="author">Your Name</label>
+    {{input value=author id="author"}}
+    <label for="answer">Your Question</label>
+    {{input value=answer id="answer"}}
+    <br>
+    <br>
+    <button class="btn btn-success" {{action 'saveAnswer' question}}>Submit</button>
+  </form>
+</div>
