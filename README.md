@@ -1,53 +1,48 @@
-# Codereview
+#Ember Independent Project: Tavern of Inquisition
+####Ember JS Code Review for Epicodus, 04.01.2016
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+###by Michael Lor
 
-## Prerequisites
+##Description
 
-You will need the following things properly installed on your computer.
+This app is a message board that allows users to post questions to a page. Each question object carries an author, a question, and a note. Users are also able to edit the questions that have been entered. Users are also able to submit Answers to existing Questions.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+The two models are Questions and Answers, where a single Question can have many Answers, employing dynamic routes to achieve the stated tasks.
 
-## Installation
+##Setup
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+1) Clone repository to local drive.
 
-## Running / Development
+2) Run the following commands from the command line under the root project folder
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+    brew install node
 
-### Code Generators
+    npm install -g bower
 
-Make use of the many generators for code, try `ember help generate` for more details
+    brew install watchman
 
-### Running Tests
+    npm install -g ember-cli
 
-* `ember test`
-* `ember test --server`
+    ember install emberfire
 
-### Building
+    ember build
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+    ember serve
 
-### Deploying
+3) The ember serve command makes the project now viewable at: http://localhost:4200
 
-Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
+##Technologies Used
+* Atom
+* HTML
+* Ember JS
+* NPM
+* NodeJS
+* GitHub
+* Bower
+* Terminal
+* Bootstrap
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+###License
 
+Copyright (c) 2016 - This software is licensed under the MIT license
