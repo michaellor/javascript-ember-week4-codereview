@@ -2,7 +2,7 @@
   <h4>Edit This Question</h4>
   <form>
     <label for="question">Question</label>
-    {{input value=question.question id="question"}}
+    {{input value=question.question id="question.question" placeholder=question.question}}
     <button class="btn btn-success" {{action 'updateQuestion' question}}>Confirm</button>
   </form>
 </div>

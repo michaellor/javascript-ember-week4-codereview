@@ -23,7 +23,7 @@ export default Ember.Route.extend({
           question.set(key, params[key]);
         }
       });
-      console.log("save::", question.author);
+      console.log("save::", question);
       question.save();
       this.transitionTo('question');
     }
