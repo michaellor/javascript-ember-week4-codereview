@@ -5,5 +5,11 @@
 {{outlet}}
 
 <footer>
-  <p>{{#link-to 'index'}}Home{{/link-to}} - {{#link-to 'about'}}About{{/link-to}}</p>
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <ul class="nav nav-pills">
+      <li role="presentation">{{#link-to 'about'}}About{{/link-to}}</li>
+      <li role="presentation">{{#link-to 'index'}}Home{{/link-to}}</li>
+    </ul>
+  </nav>
 </footer>
