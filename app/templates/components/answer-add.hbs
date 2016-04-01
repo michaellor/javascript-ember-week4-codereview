@@ -3,10 +3,10 @@
   <form>
     <label for="author">Your Name</label>
     {{input value=author id="author"}}
-    <label for="answer">Your Question</label>
+    <label for="answer">Your Answer</label>
     {{input value=answer id="answer"}}
     <br>
     <br>
-    <button class="btn btn-success" {{action 'saveAnswer' question}}>Submit</button>
+    <button class="btn btn-success" {{action 'saveAnswer' answer}}>Submit</button>
   </form>
 </div>
