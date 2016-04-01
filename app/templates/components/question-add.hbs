@@ -4,5 +4,10 @@
   {{input value=author id="author"}}
   <label for="question">Your Question</label>
   {{input value=question id="question"}}
+  <label for="notes">Add a Note</label>
+  {{input value=notes id="notes"}}
+  <br>
+  <br>
+  <button class="btn btn-primary" {{action 'saveQuestion' question}}>Submit Your Answer</button>
 </form>
 </div>
