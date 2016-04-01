@@ -5,14 +5,11 @@
       {{question-add save="save"}}
     </div>
     <div class="col-xs-6">
+      <ul>
       {{#each model.questions as |question|}}
         {{question-display question=question}}
       {{/each}}
+      </ul>
     </div>
-
-
-
   </div>
-
-
 </div>
