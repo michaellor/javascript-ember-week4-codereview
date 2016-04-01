@@ -1,10 +1,12 @@
 <div class="container">
   <h2>Welcome adventurer, leave a question for the answers that you seek.</h2>
   <div>
-    <ul>
-      {{#each model.question as |question|}}
-      {{question-display question=question}}
-    </ul>
+
+
+      {{#each model.questions as |question|}}
+        {{question-display question=question}}
+      {{/each}}
+
   </div>
 
 
