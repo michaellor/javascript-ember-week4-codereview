@@ -98,3 +98,9 @@ label {
     font-family: 'DIABLO_L';
     src: url('fonts/DIABLO_L.TTF');
 }
+
+#div_scroll {
+  height: 200px;
+  overflow-y: scroll;
+
+}

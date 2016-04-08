@@ -5,6 +5,7 @@ export default Ember.Service.extend({
 
   add(answer) {
     length: this.get('answers').length;
+    console.log("outside length:", length);
     for(var i=0; i < length; i++) {
       console.log("length:", length);
       console.log("i:", i);
