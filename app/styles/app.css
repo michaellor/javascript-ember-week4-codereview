@@ -59,3 +59,15 @@ body {
 #link-to {
   color: red;
 }
+
+.form-text {
+  color: black;
+}
+
+label {
+  color: white;
+}
+
+.color-red {
+  color: red;
+}
