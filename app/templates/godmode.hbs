@@ -3,7 +3,7 @@
     <div class="col-xs-5" id="main_container">
       <h3>Questions</h3>
       {{#each model.questions as |question|}}
-        {{question-display question=question answer=question.answer}}
+        {{questions-tile question=question answer=question.answer}}
       {{/each}}
     </div>
     <div class="col-xs-2">
@@ -11,7 +11,7 @@
     <div class="col-xs-5" id="main_container">
       <h3>Answers</h3>
       {{#each model.answers as |answer|}}
-        {{answer-display question=answer.question answer=answer}}
+        {{answers-tile question=answer.question answer=answer}}
       {{/each}}
     </div>
   </div>
