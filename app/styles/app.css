@@ -51,12 +51,20 @@ body {
 .container {
   background-color: grey;
   padding: 30px;
+  border-style: double;
+}
+
+#main_container {
   padding-left: 100px;
-  border-style:double;
+}
+
+#inventory_div {
+  margin-top: 200px;
+  background-image: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/03/wood+pattern+texture+4.jpg);
 }
 
 .container_bg {
-  background-image: url("http://furnituretexture.club/wp-content/uploads/2015/09/old-dark-wood-texture-ykxflwvbt.jpg");
+  background-image: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/03/wood+pattern+texture+4.jpg);
 }
 
 #link-to {

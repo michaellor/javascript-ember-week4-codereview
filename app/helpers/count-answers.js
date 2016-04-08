@@ -2,7 +2,6 @@ import Ember from 'ember';
 
 export function countAnswers(params) {
   var question = params[0];
-  console.log(question);
   var answers = question.get('answers').get('length');
 
   if(answers === 1) {
