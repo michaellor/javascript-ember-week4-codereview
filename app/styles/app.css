@@ -75,5 +75,10 @@ label {
 
 .color-blue {
   color: #81ebe9;
-  text-shadow: 2px 2px #be25f5;
+  text-shadow: 2px 2px black;
+}
+
+#small-font {
+  font-size: 10pt;
+  font-style: italic;
 }
