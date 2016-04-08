@@ -17,12 +17,6 @@ img {
   text-align: center;
 }
 
-.fixed_to_bottom {
-    position:fixed;
-    bottom:0px;
-    /*left:50%;*/
-    }
-
 .bordered {
   border-style: groove;
   border-radius: 5px;
@@ -30,13 +24,12 @@ img {
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 50px;
   color: white;
   background-color: black;
   background-image: url("http://img.gawkerassets.com/img/18j80bobq8m76jpg/original.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
+  background-size: cover;
   font-size: 14pt;
   font-family: 'Fjalla One', sans-serif;
 }
@@ -49,22 +42,27 @@ body {
 }
 
 .container {
-  background-color: grey;
   padding: 30px;
   border-style: double;
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 #main_container {
   padding-left: 100px;
+  background-color: black;
 }
 
 #inventory_div {
-  margin-top: 200px;
-  background-image: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/03/wood+pattern+texture+4.jpg);
+  margin-top: 100px;
+  background-color: black;
 }
 
-.container_bg {
-  background-image: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/03/wood+pattern+texture+4.jpg);
+#store_div {
+  margin-left: 100px;
+  width: 200px;
+  height: 300px;
+  background-color: black;
 }
 
 #link-to {
@@ -100,6 +98,8 @@ label {
 }
 
 #div_scroll {
+  font-family: sans-serif;
+  font-size: 14px;
   height: 200px;
   overflow-y: scroll;
 

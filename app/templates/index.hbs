@@ -1,4 +1,4 @@
-<div class="container container_bg" id="main_container">
+<div class="container" id="main_container">
   <h2>Welcome adventurer, leave a question for the answers that you seek.</h2>
   <div class="row">
     <div class="col-xs-4">
@@ -14,15 +14,18 @@
     </div>
   </div>
 </div>
+<div class="container" id="store_div">
+  <h3>Store</h3>
+</div>
 <div class="container" id="inventory_div">
   <div class="row">
     <div class="col-xs-6">
-      <h3>Suspects</h3>
+      <h3>Party</h3>
       <br>
       {{display-list answer=answer}}
     </div>
     <div class="col-xs-6">
-      <h3>Actions</h3>
+      <h3>Log</h3>
       <br>
       <div id="div_scroll">
         {{#each model.answers as |answer|}}
