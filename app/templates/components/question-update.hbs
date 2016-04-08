@@ -1,6 +1,6 @@
 <div>
   <h4>Edit This Question</h4>
-  <form>
+  <form class="form-text">
     <label for="question">Question</label>
     {{input value=question.question id="question.question" placeholder=question.question}}
     <button class="btn btn-success" {{action 'updateQuestion' question}}>Confirm</button>
