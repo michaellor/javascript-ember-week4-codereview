@@ -70,4 +70,10 @@ label {
 
 .color-red {
   color: red;
+  text-shadow: 2px 2px orange;
+}
+
+.color-blue {
+  color: #81ebe9;
+  text-shadow: 2px 2px #be25f5;
 }

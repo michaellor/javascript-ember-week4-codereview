@@ -5,9 +5,9 @@ export function coldQuestion(params) {
   console.log(params[0])
 
   if(question.get('answers').get('length') < 1) {
-    return Ember.String.htmlSafe('<span class="glyphicons glyphicons-snowflake">hello</span>')
+    return Ember.String.htmlSafe(' <span class="glyphicon glyphicon-chevron-down color-blue"></span>')
   } else if(question.get('answers').get('length') > 3) {
-    return Ember.String.htmlSafe('<span class="glyphicons glyphicon-fire color-red">hello</span>')
+    return Ember.String.htmlSafe(' <span class="glyphicon glyphicon-fire color-red"></span>')
   }
 }
 
